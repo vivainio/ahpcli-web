@@ -83,3 +83,13 @@ angular.module('app.controllers', [])
 
 ])
 
+.controller("ChannelCtrl", [
+  '$scope'
+
+($scope) ->
+  $scope.messages = [
+    "Message one"
+    "Message two"]
+])
+
+

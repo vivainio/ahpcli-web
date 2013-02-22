@@ -90,6 +90,11 @@ angular.module('app.controllers', [])
   $scope.messages = [
     "Message one"
     "Message two"]
+  $scope.channelName = "testchannel"
+
+  $scope.joinChannel = ->
+    console.log "Joining channel ", $scope.channelName
+
 ])
 
 
